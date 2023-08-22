@@ -1,0 +1,13 @@
+[
+  {
+    "name": "bhaktiCircuit",
+    "protocol": "groth16",
+    "circuit": "bhaktiCircuit/circuit.circom",
+    "input": "bhaktiCircuit/input.json",
+    "wasm": "bhaktiCircuit/out/circuit.wasm",
+    "zkey": "bhaktiCircuit/out/bhaktiCircuit.zkey",
+    "vkey": "bhaktiCircuit/out/bhaktiCircuit.vkey",
+    "r1cs": "bhaktiCircuit/out/bhaktiCircuit.r1cs",
+    "beacon": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+  }
+]
