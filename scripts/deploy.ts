@@ -69,7 +69,7 @@ async function generateProof() {
 
 async function main() {
   // deploy contract
-  const Verifier = await ethers.getContractFactory("./contracts/bhaktiCircuitVerifier.sol:Verifier");
+  const Verifier = await ethers.getContractFactory("./contracts/BhaktiCircuitVerifier.sol:Verifier");
   const verifier = await Verifier.deploy();
   await verifier.deployed();
 
